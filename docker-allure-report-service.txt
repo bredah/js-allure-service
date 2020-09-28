@@ -1,0 +1,1 @@
+docker run -p 8080:8080 kochetkovma/allure-server:latest -e allure.reports.history.level=10

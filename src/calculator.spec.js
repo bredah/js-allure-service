@@ -71,7 +71,7 @@ describe("calculator", () => {
     reporter.endStep();
   });
 
-  it("error", () => {
+  it.skip("error", () => {
     reporter
       .description("Short description about testing a division")
       .severity(Severity.Critical)
